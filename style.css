@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+.html,body{
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+    font-weight: 400;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+.container{
+    width: 1150px;
+    margin: 0px auto;
+    display: table;
+}
+.width-50{
+    width: 50%;
+    float: left;
+}
+.header-top{
+     background: #787eff;
+     width: 100%;
+     float: left;
+}
+.header-left{
+    list-style: none;
+    float: left;
+}
+.header-left li{
+    float: left;
+    padding: 10px 0px;
+    margin-right: 20px;
+}
+.header-left li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.header-right {
+    list-style: none;
+    float: right;
+}
+.header-right li{
+    float: left;
+    padding: 10px 0px;
+    margin-right: 12px;
+}
+.header-right li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+/* ////////main///////// */
+.logo{
+    font-size: 35px;
+    font-style: italic;
+}
+.logo1{
+    height: 50px;
+}
+.nav1{
+    float: right;
+    padding: 35px 0px;
+}
+.nav1 a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+/* ////////hero section////// */
+.hero img{
+    height: 100%;
+    width: 100%;
+}
+/* /////////about us/////// */
+
+.main-section{
+    width: 100%;
+    /* height: 50%; */
+    display: table;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
+}
+.about-img img{
+    width: 420px;
+    height: 300px;
+     padding: 0px 15px 0px;
+
+}
+.about-detail h6{
+    font-size: 50px;
+    color: #787eff;
+    text-align: center;
+
+}
+.about-detail h1{
+    font-size: 32px;
+    margin: 5px 0px 10px 0px;
+    color: #1f2836;
+
+}
+.about-detail h1 span{
+    color: #787eff;
+}
+.about-detail p{
+    font-size: 18px;
+     margin-bottom: 20px; 
+    line-height: 25px;
+    color: #1e1e1e;
+}
+.width-30{
+    width: 30%;
+    float: left;
+
+}
+/* //////////////// */
+.heading-section{
+    font-size: 35px;
+    text-align: center;
+}
+.main-section h2{
+    font-size: 45px;
+    color: #787eff;
+}
+.subhead-section{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.course-list{
+    width: 100px;
+    height: 220px;
+    float: left;
+    padding: 0px 10px;
+    display: flex;
+    
+}
+.course-list p{
+     color:#787eff;
+     font-size: 20px; 
+     margin-top: 190px; 
+
+}
+.image{
+    border: 2px solid black;
+    border-radius: 8rem;
+}
+.main-section{
+    background-image: url(./OIPe.jpg);
+}
+/* ///////admision///// */
+.admission{
+    background-image: url(./backg.jpg);
+    height: 600px;
+}
+.admission h2{
+    text-align: center;
+    color: #fff;
+}
+.row{
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+}
+.col{
+    width: 50px;
+    height: 20px;
+}
+.form-control{
+    width: 220px;
+}
+.footer h2{
+    text-align: center;
+    margin-top: 35px;
+}
+.footer img{
+    width: 1000px;
+    height: 300px;
+    margin-top:40px;
+    margin-left: 50px;
+}
+.footer p{
+    font-size: 30px;
+    /* border: 1px solid black; */
+    width: 87%;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #fff;
+
+}
+.foot-text{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.5rem 7%;
+    background: #787eff;
+}
+.foot-text p{
+    font-size: 1.9rem;
+}
+
+    
+
